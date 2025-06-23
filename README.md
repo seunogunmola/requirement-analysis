@@ -38,7 +38,7 @@ This project aims to sharpen skills essential for managing and delivering robust
 
 **Requirement Analysis** is a critical phase in the Software Development Lifecycle (SDLC). It involves identifying, gathering, analyzing, validating, and documenting the needs and expectations of stakeholders for a software system. The output of this process forms the foundation for system design, development, and testing.
 
----
+
 
 ### **What Is Requirement Analysis?**
 
@@ -50,7 +50,7 @@ Requirement Analysis is the process of understanding *what* the users and stakeh
 
 This phase bridges the gap between a high-level idea and a detailed blueprint of how to build the software.
 
----
+
 
 ### **Key Activities in Requirement Analysis**
 
@@ -89,7 +89,7 @@ This phase bridges the gap between a high-level idea and a detailed blueprint of
      * Consistency
      * Alignment with business goals
 
----
+
 
 ### **Types of Requirements**
 
@@ -109,9 +109,9 @@ This phase bridges the gap between a high-level idea and a detailed blueprint of
 
   * Descriptions of user expectations and interactions with the system
 
----
 
-### **Why Requirement Analysis Is Important in SDLC**
+
+### **Why is Requirement Analysis Important?**
 
 1. **Defines the Project Scope**
 
@@ -137,7 +137,6 @@ This phase bridges the gap between a high-level idea and a detailed blueprint of
 
    * When systems meet users’ real needs, it leads to higher adoption and satisfaction.
 
----
 
 ### **Challenges in Requirement Analysis**
 
@@ -148,7 +147,7 @@ This phase bridges the gap between a high-level idea and a detailed blueprint of
 
 These risks can be mitigated through effective stakeholder engagement, iterative analysis, and validation practices.
 
----
+
 
 ### **Conclusion**
 
