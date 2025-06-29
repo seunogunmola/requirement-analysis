@@ -122,6 +122,8 @@ A Use Case Diagram is a visual tool used in Requirement Analysis to show how use
 
 
 ![image](https://github.com/user-attachments/assets/2c943a6c-642b-4c5b-af8d-b6f952066443)
+![image](https://github.com/user-attachments/assets/8f79d467-3750-44f2-93dd-5bee63b4cfd0)
+
 
 
 ## Acceptance Criteria
