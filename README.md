@@ -1,7 +1,7 @@
 # Requirement Analysis in Software Development
 
-This repository is created to document the process and importance of Requirement Analysis in the Software Development Life Cycle (SDLC).  
-It contains explanations, examples, diagrams, and key steps involved in gathering and analyzing software requirements for a booking system project.
+This repository was created to document the process and significance of Requirement Analysis within the Software Development Life Cycle (SDLC).
+It includes detailed explanations, illustrative examples, diagrams, and the essential steps for effectively gathering and analyzing software requirements for a booking system project.
 
 ## What is Requirement Analysis?
 
@@ -11,33 +11,41 @@ This step ensures that everyone involved has a clear and shared understanding of
 
 ### Importance in the Software Development Lifecycle (SDLC)
 
-Requirement Analysis is one of the most critical stages in the SDLC. It serves as the foundation for all other phases such as design, development, testing, and deployment. A well-done requirement analysis helps:
+Requirement Analysis is a crucial phase in the Software Development Life Cycle (SDLC). It lays the groundwork for all subsequent stages—design, development, testing, and deployment.
 
-- Ensure that the final software meets the user’s needs.
-- Define clear project scope and boundaries.
-- Reduce development time and rework.
-- Improve communication between stakeholders and developers.
-- Make accurate cost and timeline estimations.
+A thorough and effective requirement analysis helps to:
 
-Without proper requirement analysis, the project is at risk of failure due to unclear goals, missed functionalities, or unexpected issues.
+✅ Align the final software with user needs and expectations
+
+✅ Clearly define the project scope and constraints
+
+✅ Minimize development time and avoid unnecessary rework
+
+✅ Enhance communication between stakeholders and the development team
+
+✅ Enable accurate estimation of cost, resources, and timelines
+
+
+
 
 ## Why is Requirement Analysis Important?
+Requirement Analysis plays a vital role in the success of any software project. Here are five key reasons why it matters:
 
-Requirement Analysis plays a vital role in the Software Development Life Cycle (SDLC). It helps teams build the right product by clearly defining what the software should do and how it should perform.
+1. **Defines Clear Project Scope**  
+   Helps outline what the system should and should not do, preventing scope creep.
 
-Here are three key reasons why it is important:
+2. **Ensures User Needs Are Met**  
+   Captures user expectations early, reducing the risk of building the wrong solution.
 
-### 1. Prevents Miscommunication and Confusion
-Requirement Analysis ensures that both developers and stakeholders are on the same page. It reduces the chances of misunderstandings by clearly documenting what is expected from the software.
+3. **Improves Communication**  
+   Serves as a bridge between stakeholders, developers, and project managers for better collaboration.
 
-### 2. Helps Define the Project Scope
-By gathering and analyzing requirements, teams can set clear boundaries for what will be included in the project. This helps prevent scope creep, which is when extra features are added unexpectedly and cause delays or extra costs.
+4. **Reduces Cost and Rework**  
+   Identifying issues early helps avoid expensive fixes later in the development process.
 
-### 3. Enables Accurate Planning
-With well-defined requirements, project managers can better estimate timelines, costs, and resources needed for the project. It lays the groundwork for creating realistic project plans and schedules.
+5. **Enables Accurate Planning**  
+   Provides a solid foundation for estimating time, budget, and resources effectively.
 
-### 4: Improves Product Quality
-When requirements are clear and validated, the final product is more likely to meet the user’s needs and expectations, leading to higher customer satisfaction.
 
 ## Key Activities in Requirement Analysis
 
@@ -95,9 +103,26 @@ A Use Case Diagram is a visual tool used in Requirement Analysis to show how use
 
 ### Example: Booking Management System Use Case Diagram
 
-The diagram below shows key actors (users) and their interactions with the booking system:
+#### Actor: Customer (Registered User or Guest User)
+#### Goal: To search, view, and book a hotel room successfully.
+#### Primary Flow:
+- User visits the platform (web or mobile app).
+- User enters location, dates, and guest details into the search bar.
+- System queries Elasticsearch for available listings.
+- System returns a list of available hotels with prices, ratings, and photos.
+- User filters and sorts results (by price, rating, distance, etc.).
+- User selects a hotel and views the hotel details page.
+- User reviews room options, amenities, policies, and availability.
+- User clicks “Book Now” on a selected room.
+- System asks the user to log in or continue as guest.
+- User enters personal details (if not logged in).
+- User selects payment method and confirms booking.
+- System processes payment via integrated payment gateway.
+- System sends booking confirmation via email/SMS/notification.
 
-![Use Case Diagram](./alx-booking-uc.png)
+
+![image](https://github.com/user-attachments/assets/2c943a6c-642b-4c5b-af8d-b6f952066443)
+
 
 ## Acceptance Criteria
 
@@ -109,14 +134,73 @@ Acceptance Criteria are specific conditions that a software feature must meet in
 - It reduces misunderstandings between developers and stakeholders.
 - It ensures that the delivered product matches the user’s expectations.
 
-### Example: Checkout Feature in a Booking Management System
+# ✅ Acceptance Criteria: Hotel Booking User Flow (Customer)
 
-**Feature:** Booking Checkout
+## Feature: Hotel Room Booking
 
-**Acceptance Criteria:**
-- The user must be able to select available dates for a property.
-- The system should calculate the total cost based on selected dates.
-- The user must be able to enter payment details and confirm the booking.
-- After confirmation, the system should display a success message and send a confirmation email within 2 minutes.
-- Booked dates should be marked as unavailable immediately.
+As a customer,  
+I want to search, view, and book a hotel room,  
+So that I can find accommodation that fits my needs.
 
+---
+
+### 🎯 Scenario 1: Visit Platform
+- [ ] The customer can access the booking platform via web or mobile.
+- [ ] The homepage loads successfully with a visible search bar.
+
+---
+
+### 🔍 Scenario 2: Search Hotels
+- [ ] Customer can input location, check-in/out dates, and number of guests.
+- [ ] System returns a list of available hotels based on search input.
+- [ ] System shows hotel names, prices, ratings, and images.
+
+---
+
+### 🧰 Scenario 3: Filter and Sort Results
+- [ ] Customer can filter results by price range, rating, distance, and amenities.
+- [ ] Customer can sort results by price (low to high), rating, or proximity.
+- [ ] Results update dynamically based on selected filters/sorting.
+
+---
+
+### 📄 Scenario 4: View Hotel Details
+- [ ] Customer can click on a hotel to view its full details.
+- [ ] Hotel detail page shows room types, amenities, cancellation policy, and photos.
+- [ ] Availability is displayed per selected dates.
+
+---
+
+### 🛏 Scenario 5: Book Room
+- [ ] Customer clicks “Book Now” on a selected room.
+- [ ] If not logged in, the system prompts login or guest checkout.
+- [ ] Customer proceeds with booking after authentication.
+
+---
+
+### 👤 Scenario 6: Enter Personal Details
+- [ ] Customer provides name, email, phone number, and any required fields.
+- [ ] Form validation prevents submission of incomplete/invalid data.
+
+---
+
+### 💳 Scenario 7: Select Payment Method
+- [ ] Customer can select from available payment options (card, wallet, etc.).
+- [ ] System displays total price and breakdown of charges.
+
+---
+
+### ✅ Scenario 8: Confirm Booking
+- [ ] Customer reviews the summary and clicks “Confirm Booking.”
+- [ ] Payment is processed securely via payment gateway.
+- [ ] Booking status updates to "Confirmed" if payment succeeds.
+
+---
+
+### 📩 Scenario 9: Receive Confirmation
+- [ ] Customer receives confirmation via email, SMS, and/or in-app notification.
+- [ ] Confirmation includes hotel name, address, dates, and booking reference.
+
+---
+
+##
